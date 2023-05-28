@@ -1,0 +1,11 @@
+#root {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.section{
+  height: 80vh;
+  width: '100vw';
+  padding: 3.5rem;
+}
+
