@@ -132,7 +132,6 @@ SiteHeader.defaultProps = {
   subtitle:
     "REF Construction offers top-quality services in the civil, industrial, and residential sectors, ensuring that all projects are done with professionalism and expertise. We build lasting relationships by providing exceptional customer service and ensuring that all projects are completed on time and within budget.",
   image: "https://source.unsplash.com/collection/404339/800x600",
-  logo: "/src/assets/white_v_logo.svg",
-  logoMob: "/src/assets/REFlogo.svg",
-  logoLink: "/signup"
+  logo: "/white_v_logo.svg",
+  logoMob: "/REFlogo.svg",
 };

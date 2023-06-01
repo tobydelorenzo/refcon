@@ -2,7 +2,7 @@
   "homepage": "http://tobydelorenzo.github.io/refcon",
   "name": "ref-land",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,7 +24,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-plx": "^2.1.2",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {
-  Box,
   Flex,
 } from "@chakra-ui/react";
 
@@ -32,11 +31,8 @@ export default function Hero({
           {...rest}
         >
             <SiteHeader />
-            <HeroImage 
-            />      
-            <Box>
-              <Carousel />  
-            </Box>
+            <HeroImage />      
+            <Carousel />  
             <About mb={16}/>
             <Contact mb={16}/>
         </Flex>

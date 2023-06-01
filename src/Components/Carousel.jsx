@@ -1,22 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { capsFirst } from "../utils";
-import ReactDOM from "react-dom";
-import theme from "../utils/theme";
 
 import {
-  ChakraProvider,
   extendTheme,
   Container,
   Heading,
-  Button,
-  VStack,
   Stack,
   Image,
   Text,
   Flex,
-  Tag,
-  Box,
-  Center
+  Box
 } from "@chakra-ui/react";
 
 import ChakraCarousel from "./ChakraCarousel"
@@ -25,13 +18,14 @@ function Carousel() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/src/assets/content.json")
+    fetch("/content.json")
       .then((res) => res.json())
       .then((res) => setData(res));
   }, []);
 
+  const theme = extendTheme({})
+
   return (
-    <ChakraProvider theme={extendTheme(theme)}>
       <Container
         py={16}
         px={{xs:'16px', md:'60px', xl: '10vw'}}
@@ -155,7 +149,6 @@ function Carousel() {
           ))}
         </ChakraCarousel>
       </Container>
-    </ChakraProvider>
   );
 }
 
