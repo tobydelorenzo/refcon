@@ -2,14 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import {
   Box,
-  Button,
   Flex,
   Grid, 
   GridItem,
   Image,
   Heading,
   Stack,
-  Text
 } from "@chakra-ui/react";
 
 import Nav from "./Nav";
@@ -127,11 +125,11 @@ SiteHeader.propTypes = {
 };
 
 SiteHeader.defaultProps = {
-  titleLineOne: "blah ablhan", 
+  titleLineOne: "Excellence in construction", 
   titleLineTwo: "from the ground up.",
   subtitle:
     "REF Construction offers top-quality services in the civil, industrial, and residential sectors, ensuring that all projects are done with professionalism and expertise. We build lasting relationships by providing exceptional customer service and ensuring that all projects are completed on time and within budget.",
   image: "https://source.unsplash.com/collection/404339/800x600",
-  logo: "/white_v_logo.svg",
-  logoMob: "/REFlogo.svg",
+  logo: "/refcon/white_v_logo.svg",
+  logoMob: "/refcon/REFlogo.svg",
 };

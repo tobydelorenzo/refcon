@@ -2,15 +2,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {
-  Box,
-  Button,
   Flex,
   Grid, 
-  GridItem,
-  Image,
   Heading,
   Stack,
-  Spacer,
   Text
 } from "@chakra-ui/react";
 
@@ -108,13 +103,13 @@ export default function Contact({
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
                             <ExternalLinkIcon color="#F94E24" />
                             <Text>
-                              By email  <br />@refconstruction
+                              By email  <br /><Link href='mailto:refconstruction7@gmail.com' isExternal>@refconstruction</Link>
                             </Text>
                         </Flex>
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
                             <ExternalLinkIcon color="#F94E24" />
                             <Text>
-                            By Phone  <br />0427 167 474
+                            By Phone  <br /><Link href='tel:+61427167474' isExternal>0427 167 474</Link>
                             </Text>
                         </Flex>
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
