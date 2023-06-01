@@ -12,13 +12,13 @@ import {
   Box
 } from "@chakra-ui/react";
 
-import ChakraCarousel from "./ChakraCarousel"
+import ChakraCarousel from "/ChakraCarousel"
 
 function Carousel() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/content.json")
+    fetch("/refcon/content.json")
       .then((res) => res.json())
       .then((res) => setData(res));
   }, []);
