@@ -1,6 +1,5 @@
 
 import React from "react";
-import PropTypes from "prop-types";
 import {
   Flex,
   Grid, 
@@ -12,24 +11,7 @@ import {
 
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
-const styles = {
-aboutCard: {
-    alignItems: "center",
-    display: "flex",
-    justifyContent: "flex-end"
-  },
-contactDetails: {
-  h: '10', 
-  bg: 'tomato'
-}
-};
-
-
-export default function Contact({
-  Abouttitle,
-  Abouttext,
-  ...rest
-}) 
+export default function Contact({}) 
 
 {
   return (
@@ -137,9 +119,4 @@ export default function Contact({
     </>
   );
 }
-
-Contact.propTypes = {
-  Abouttitle: PropTypes.string,
-  Abouttext: PropTypes.string,
-};
 
