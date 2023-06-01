@@ -12,7 +12,7 @@ import {
   Box
 } from "@chakra-ui/react";
 
-import ChakraCarousel from "/ChakraCarousel"
+import ChakraCarousel from "./ChakraCarousel"
 
 function Carousel() {
   const [data, setData] = useState([]);
