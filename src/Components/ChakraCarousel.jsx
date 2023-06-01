@@ -160,6 +160,7 @@ const Slider = ({
 
   return (
     <>
+    {/*This is the preview*/ }
       <Box
         ref={ref}
         w={{ base: "100%", md: `calc(100% + ${gap}px)` }}
