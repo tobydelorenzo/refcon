@@ -6,7 +6,8 @@ import {
   Grid, 
   Heading,
   Stack,
-  Text
+  Text,
+  Link
 } from "@chakra-ui/react";
 
 import { ExternalLinkIcon } from '@chakra-ui/icons'
