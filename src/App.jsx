@@ -55,7 +55,7 @@ About.propTypes = {
 Hero.defaultProps = {
   title: "Excellence in construction from the ground up.",
   subtitle:
-    "REF Construction offers top-quality services in the civil, industrial, and residential sectors, ensuring that all projects are done with professionalism and expertise. We build lasting relationships by providing exceptional customer service and ensuring that all projects are completed on time and within budget.",
+    "REF Construction is a privately owned construction company based out of Parkes NSW  specialising in civil construction, earthworks, project management and labour hire. <br /> The team at REF Construction combine years of experience across the mining, renewable energies, civil, commercial and residential sectors to form a determined project company. <br />REF Construction offers top-quality services in the civil, industrial, and residential sectors, ensuring that all projects are completed with professionalism and expertise. <br />We are dedicated to delivering reliable to meet the needs of our clients. <br />We build lasting relationships by providing exceptional customer service and ensuring that all projects are completed on time and within budget.",
   image: "https://source.unsplash.com/collection/404339/800x600",
   ctaText: "Create your account now",
   ctaLink: "/signup"
