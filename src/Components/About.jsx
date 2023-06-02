@@ -13,8 +13,6 @@ import {
   Text
 } from "@chakra-ui/react";
 
-import Nav from "./Nav";
-
 const styles = {
 aboutCard: {
     alignItems: "center",
