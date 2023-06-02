@@ -17,6 +17,7 @@ export default function Contact({})
   return (
     <>
       <Flex
+        id='contact'
         align="center"
         direction={{ base: "column" }}
         >

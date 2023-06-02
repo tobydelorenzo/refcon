@@ -32,6 +32,7 @@ export default function About({
   return (
     <>  
     <Flex
+        id='about'
         align="center"
         mb={16}
       >

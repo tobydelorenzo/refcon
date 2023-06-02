@@ -27,6 +27,7 @@ function Carousel() {
 
   return (
       <Container
+        id="projects"
         py={16}
         px={{xs:'16px', md:'60px', xl: '10vw'}}
         mt={16}

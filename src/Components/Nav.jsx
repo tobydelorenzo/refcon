@@ -3,6 +3,7 @@ import {
     Box,
     Flex,
   } from "@chakra-ui/react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const styles = {
     navLink: {
@@ -31,9 +32,10 @@ const styles = {
             px='9'
             display={{xs:'none', sm:'flex'}}
             >
-            <Box style={styles.navLink}><a href="#">Home</a></Box>
-            <Box style={styles.navLink}><a href="#">About</a></Box>
-            <Box style={styles.navLink}><a href="#">Contact</a></Box>
+            <Box style={styles.navLink}><AnchorLink href='#home'>Home</AnchorLink></Box>
+            <Box style={styles.navLink}><AnchorLink href='#projects'>Projects</AnchorLink></Box>
+            <Box style={styles.navLink}><AnchorLink href='#about'>Company</AnchorLink></Box>
+            <Box style={styles.navLink}><AnchorLink href='#contact'>Contact</AnchorLink></Box>
             
         </Flex>
     </>
