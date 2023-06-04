@@ -55,6 +55,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.navLink:hover{
+  color:rgba(255, 255, 255, 0.87)
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,4 +70,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
 }
+
+

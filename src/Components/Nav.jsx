@@ -3,6 +3,8 @@ import {
     Box,
     Flex,
   } from "@chakra-ui/react";
+
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const styles = {
