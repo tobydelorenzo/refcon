@@ -11,37 +11,47 @@
       "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
     },
     {
-
-        "id": 2,
-        "title": "Settlement Dam 15",
-        "body": "REF Construction assisted with coordinating the excavations and installation of an overflow tower on a surface dam on George Fisher Mine Qld. The crew carried out detailed excavations to the batters, installing geo-fab lining to the overflow wall before shotcreting and dropping in the precast overflow tower. ",    
-        "value": "1.5m",
-        "length": "3 months",
-        "duties1": "Onsite supervision",
-        "duties2": "Project management & coordination",
-        "tag": "CIVIL",
-        "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
-      },
-      {
-        "id": 3,
-        "title": "Return Air system concrete foundation",
-        "body": "Members of REF Construction were engaged as onsite supervisor and project coordinator in what was a very successful and time managed project. During our time on site at George Fisher Mine Qld the small crew of 5-6  excavated over 1000t of spoil and installed 50t of reo before pouring 900m3 of concrete to form the foundation for the ZA70 vent fan system.",    
-        "value": "$300k",
-        "length": "20 Days",
-        "duties1": "Null",
-        "duties2": "Null",
-        "tag": "CIVIL",
-        "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
-      },
-      {
-        "id": 4,
-        "title": "Service pits, Headwall",
-        "body": "Conducting a mass surface upgrade to cope with an underground expansion, REF Construction team members assisted with various civil projects at Lake Cowal gold mine in NSW. Whilst REF team members were placed in site supervisor and leading hand positions to coordinate multiple projects we had great feedback from the client regarding quality and work ethic.",    
-        "value": "1.5m",
-        "length": "3 months",
-        "duties1": "This",
-        "duties2": "andThis",
-        "tag": "CIVIL",
-        "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
-      }
+      "id": 2,
+      "title": "Settlement Dam 15",
+      "body": "REF Construction assisted with coordinating the excavations and installation of an overflow tower on a surface dam on George Fisher Mine Qld. The crew carried out detailed excavations to the batters, installing geo-fab lining to the overflow wall before shotcreting and dropping in the precast overflow tower. ",    
+      "value": "1.5m",
+      "length": "3 months",
+      "duties1": "Onsite supervision",
+      "duties2": "Project management & coordination",
+      "tag": "CIVIL",
+      "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
+    },
+    {
+      "id": 3,
+      "title": "Return Air system concrete foundation",
+      "body": "Members of REF Construction were engaged as onsite supervisor and project coordinator in what was a very successful and time managed project. During our time on site at George Fisher Mine Qld the small crew of 5-6  excavated over 1000t of spoil and installed 50t of reo before pouring 900m3 of concrete to form the foundation for the ZA70 vent fan system.",    
+      "value": "$300k",
+      "length": "20 Days",
+      "duties1": "Null",
+      "duties2": "Null",
+      "tag": "CIVIL",
+      "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
+    },
+    {
+      "id": 4,
+      "title": "Service pits, Headwall",
+      "body": "Conducting a mass surface upgrade to cope with an underground expansion, REF Construction team members assisted with various civil projects at Lake Cowal gold mine in NSW. Whilst REF team members were placed in site supervisor and leading hand positions to coordinate multiple projects we had great feedback from the client regarding quality and work ethic.",    
+      "value": "1.5m",
+      "length": "3 months",
+      "duties1": "This",
+      "duties2": "andThis",
+      "tag": "CIVIL",
+      "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
+    },
+    {
+      "id": 5,
+      "title": "Service pits, Headwall",
+      "body": "Conducting a mass surface upgrade to cope with an underground expansion, REF Construction team members assisted with various civil projects at Lake Cowal gold mine in NSW. Whilst REF team members were placed in site supervisor and leading hand positions to coordinate multiple projects we had great feedback from the client regarding quality and work ethic.",    
+      "value": "1.5m",
+      "length": "3 months",
+      "duties1": "This",
+      "duties2": "andThis",
+      "tag": "CIVIL",
+      "projectimage": "https://source.unsplash.com/collection/404339/1600x525"
+    }
 ]
