@@ -44,7 +44,7 @@ function Carousel() {
           gap={32}
           
         >
-          {data.slice(0, 5).map((post, index) => (
+          {data.slice(0, 4).map((post, index) => (
             <Flex
               key={index}
               justifyContent="space-between"
