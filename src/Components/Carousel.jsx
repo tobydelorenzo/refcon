@@ -42,9 +42,9 @@ function Carousel() {
       >
         <ChakraCarousel 
           gap={32}
-          
+          height="650px"
         >
-          {data.slice(0, 4).map((post, index) => (
+          {data.slice(0, 6).map((post, index) => (
             <Flex
               key={index}
               justifyContent="space-between"
@@ -58,7 +58,6 @@ function Carousel() {
               
               <Flex
                 flexDirection={{base:"row", xs:"column", md:"row"}}
-                gap='2'
               >
                 <Box 
                   flexBasis='60%'
@@ -82,8 +81,10 @@ function Carousel() {
                         fontSize="4xl"
                         w="max-content" 
                         textAlign="left"
+                        wordBreak='break-word'
+                        width="50vw"
                       >
-                        {capsFirst(post.title)}
+                        {capsFirst(post.title)}, {(post.id)}
                     </Heading>
                   </Flex>
                     <Stack 
@@ -91,6 +92,19 @@ function Carousel() {
                       gap='4'
                       pt='4'
                     >
+                      <Box 
+                        size="sm" 
+                        variant="solid" 
+                        bg="rgba(105, 229, 229, 0.9);"
+                        px="6"
+                        py="2"
+                        w="min-content"
+                        borderRadius='full'
+                        fontWeight='700'
+                        color='#0C2A36'
+                        >
+                        {(post.tag)}
+                      </Box>
                       <Stack 
                         direction={{base:'row', xs:'column', sm:'row' }}
                         spacing={2}
@@ -112,20 +126,6 @@ function Carousel() {
                           <Text>{(post.duties2)}</Text>
                         </Stack>
                       </Stack>
-                      
-                      <Box 
-                        size="sm" 
-                        variant="solid" 
-                        bg="rgba(105, 229, 229, 0.9);"
-                        px="6"
-                        py="2"
-                        w="min-content"
-                        borderRadius='full'
-                        fontWeight='700'
-                        color='#0C2A36'
-                        >
-                        {(post.tag)}
-                      </Box>
                     </Stack>
                 </Box>
                 <Box 
@@ -137,6 +137,7 @@ function Carousel() {
                   borderRadius='16px'
                   padding='8'
                   display={{base:"Flex", xs:"none", md:"Flex"}}
+                  width="420px"
                   >
                     {capsFirst(post.body)}
                 </Box>

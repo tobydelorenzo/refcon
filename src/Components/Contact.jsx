@@ -96,13 +96,16 @@ export default function Contact({})
                             By Phone  <br /><Link href='tel:+61427167474' isExternal>0427 167 474</Link>
                             </Text>
                         </Flex>
+                        {/*
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
                             <ExternalLinkIcon color="#F94E24" />
+                            
                             <Text>
                                 LinkedIn
                             </Text>
+                            
                         </Flex>
-                        
+                        */}
                         <Flex flexGrow={'4'} justify={{xs:"flex-start", sm:"flex-end"}}>                        
                           <Text>
                             © Ref Construction 2023 

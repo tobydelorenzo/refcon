@@ -1,0 +1,45 @@
+/* HEADER BACKGROUND */
+.headerBg {
+    align-items: center;
+    background: #F94E24
+}
+
+/*  NAVIGATION  */
+.navContainer {
+    min-width: min-content; 
+    background-color: rgba(242, 242, 242, 0.3);
+    opacity: 0.6;
+    backdrop-filter: blur(6px);
+    border-radius: 16px;
+    align-items: center; 
+    width: fit-content;
+}
+
+.navLink {
+    color: "rgba(49, 53, 57, 1)";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    text-decoration: none;  
+    display: inline-block;
+    position: relative;
+    }
+
+.navLink:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    top:55%;
+    position: absolute;
+    background: rgba(49, 53, 57, 1);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.navLink:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

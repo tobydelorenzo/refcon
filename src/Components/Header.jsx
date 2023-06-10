@@ -36,9 +36,7 @@ export default function SiteHeader({
   return (
     <>  
     <Flex
-        id='home'
-        align="center"
-        bg="#F94E24"
+        id='home' className="headerBg"
       >
         <Grid className="section"
             gridTemplateRows={'60px 1fr'}
@@ -58,10 +56,11 @@ export default function SiteHeader({
                   src={logo} 
                    />
                   <Image 
-                  display= {{xs:'flex', sm:'none'}}
-                  src={logoMob} 
-                  width={{xs:'60vw', sm:'40vw'}}
-                  rounded="1rem" />
+                    display= {{xs:'flex', sm:'none'}}
+                    src={logoMob} 
+                    width={{xs:'60vw', sm:'40vw'}}
+                    rounded="1rem" 
+                    />
             </GridItem>
             <GridItem colSpan={1} style={styles.navalign}>
                 <Nav />
