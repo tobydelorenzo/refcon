@@ -25,7 +25,7 @@ const styles = {
         color: 'white', 
         position: 'relative',
         objectFit: 'fil',
-        backgroundImage: 'url("https://source.unsplash.com/collection/404339/1600x1200")',
+        backgroundImage: 'url("/refcon/hero.png")',
         backgroundPosition: '50%',
         backgroundRepeat:'no-repeat',
         backgroundSize: '100%',

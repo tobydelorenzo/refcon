@@ -84,7 +84,7 @@ function Carousel() {
                         wordBreak='break-word'
                         width="50vw"
                       >
-                        {capsFirst(post.title)}, {(post.id)}
+                        {capsFirst(post.title)}
                     </Heading>
                   </Flex>
                     <Stack 

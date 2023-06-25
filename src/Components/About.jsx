@@ -2,15 +2,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {
-  Box,
-  Button,
   Flex,
-  Grid, 
-  GridItem,
-  Image,
   Heading,
-  Stack,
-  Text
 } from "@chakra-ui/react";
 
 const styles = {
