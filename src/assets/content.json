@@ -7,7 +7,7 @@
     "length": "3 months",
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
-    "tag": "CIVIL //",
+    "tag": "CIVIL",
     "projectimage": "/refcon/ZA70-Raisebore-and-Vent-Fan.jpg"
   },
   {
@@ -18,7 +18,7 @@
     "length": "3 months",
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
-    "tag": "CIVIL //",
+    "tag": "CIVIL",
     "projectimage": "/refcon/settlement-dam-15.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "length": "20 Days",
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
-    "tag": "CIVIL //",
+    "tag": "CIVIL",
     "projectimage": "/refcon/Return-Air-System-concrete-foundation.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "length": "3 months",
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
-    "tag": "CIVIL //",
+    "tag": "CIVIL",
     "projectimage": "/refcon/Evolution-underground-expansion.jpg"
   },
   {
@@ -51,7 +51,18 @@
     "length": "3 months",
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
-    "tag": "CIVIL //",
+    "tag": "CIVIL",
+    "projectimage": "/refcon/North-Parkes-Mine-surface-crushing-circuit.jpg"
+  },
+  {
+    "id": 6,
+    "title": "North Parkes Mine surface crushing circuit",
+    "body": "Installing over 5000m2 of sheeting REF Construction personnel completed the sheeting 4 weeks ahead of schedule allowing the client to bring forward upcoming scope of works. With no incidents or injuries the sheeting crew were able to achieve this result with some exceptional crane operating and risk management by all involved.",    
+    "value": "$500k",
+    "length": "3 months",
+    "duties1": "Onsite supervision",
+    "duties2": "Project management & coordination",
+    "tag": "CIVIL",
     "projectimage": "/refcon/North-Parkes-Mine-surface-crushing-circuit.jpg"
   }
 ]
