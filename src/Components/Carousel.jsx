@@ -145,6 +145,7 @@ function Carousel() {
               <Flex>
                 <Image src={post.projectimage}
                   borderRadius={10}
+                  width={"100%"}
                 ></Image>
               </Flex>
             </Flex>
