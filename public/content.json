@@ -8,7 +8,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/refcon/Raisebore-and-Vent-Fan.jpg"
+    "projectimage": "/Raisebore-and-Vent-Fan.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/refcon/settlement-dam-15.jpg"
+    "projectimage": "/settlement-dam-15.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/refcon/Return-Air-System-concrete-foundation.jpg"
+    "projectimage": "/Return-Air-System-concrete-foundation.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/refcon/Evolution-underground-expansion.jpg"
+    "projectimage": "/Evolution-underground-expansion.jpg"
   },
   {
     "id": 5,
@@ -52,17 +52,17 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/refcon/North-Parkes-Mine-surface-crushing-circuit.jpg"
+    "projectimage": "/North-Parkes-Mine-surface-crushing-circuit.jpg"
   },
   {
     "id": 6,
-    "title": "North Parkes Mine surface crushing circuit",
-    "body": "Installing over 5000m2 of sheeting REF Construction personnel completed the sheeting 4 weeks ahead of schedule allowing the client to bring forward upcoming scope of works. With no incidents or injuries the sheeting crew were able to achieve this result with some exceptional crane operating and risk management by all involved.",    
-    "value": "$500k",
+    "title": "ZA70 Raisebore and Vent Fan",
+    "body": "Members of REF Construction were engaged as onsite supervisor and project coordinator in what was a very successful and time managed project. During our time on site at George Fisher Mine Qld the small crew of 5-6  excavated over 1000t of spoil and installed 50t of reo before pouring 900m3 of concrete to form the foundation for the ZA70 vent fan system.",    
+    "value": "1.5m",
     "length": "3 months",
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/refcon/North-Parkes-Mine-surface-crushing-circuit.jpg"
+    "projectimage": "/Raisebore-and-Vent-Fan.jpg"
   }
 ]
