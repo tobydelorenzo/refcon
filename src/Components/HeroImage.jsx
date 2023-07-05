@@ -86,7 +86,8 @@ export default function HeroImage() {
         <Center>
             <Plx parallaxData={removePadding}>
             <Flex>
-                <Plx parallaxData={heroImageWidth} style={styles.heroImageWidthStyles}>
+                <Plx parallaxData={heroImageWidth} 
+                    style={styles.heroImageWidthStyles}>
                 </Plx>
             </Flex>
             </Plx>
