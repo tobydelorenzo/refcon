@@ -33,7 +33,7 @@ export default function Hero({
             <SiteHeader />
             <HeroImage />      
             <Carousel />  
-            <About mb={16}/>
+            <About mb={{xs:"none", md:"16"}}/>
             <Contact mb={16}/>
         </Flex>
     </>

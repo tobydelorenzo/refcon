@@ -76,21 +76,22 @@ export default function SiteHeader({
               >
                 <Box>
                     <Heading
-                    as="h1"
-                    fontWeight="bold"
-                    lineHeight={{xs:"1", sm:"1.33"}}
-                    textAlign="left"
-                    fontSize={{xs:"6xl", sm:"5xl",md:"7xl"}}
-                    w="100%"  
+                      as="h1"
+                      fontWeight="bold"
+                      lineHeight={{xs:"1", sm:"1.33"}}
+                      textAlign="left"
+                      fontSize={{xs:"5xl",md:"7xl"}}
+                      w="100%"  
                     >
                     {titleLineOne}
                     </Heading>
                     <Heading
-                    as="h1"
-                    fontWeight="bold"
-                    textAlign="left"
-                    fontSize={{xs:"6xl", sm:"5xl",md:"7xl"}}
-                    w="100%"  
+                      as="h1"
+                      fontWeight="bold"
+                      lineHeight={{xs:"1", sm:"1.33"}}
+                      textAlign="left"
+                      fontSize={{xs:"5xl",md:"7xl"}}
+                      w="100%"  
                     >
                     {titleLineTwo}
                     </Heading>
