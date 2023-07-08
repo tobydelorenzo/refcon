@@ -82,7 +82,7 @@ function Carousel() {
                         w="max-content" 
                         textAlign="left"
                         wordBreak='break-word'
-                        width="50vw"
+                        width={{base:"50vw", xs:"100%", md:"50vw"}}
                       >
                         {capsFirst(post.title)}
                     </Heading>

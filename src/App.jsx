@@ -26,6 +26,7 @@ export default function Hero({
 {
 
 const isMobileResolution = useMatchMedia("(min-width:662px)", true);
+
   return (
     <>
         <Flex
@@ -36,8 +37,7 @@ const isMobileResolution = useMatchMedia("(min-width:662px)", true);
           {...rest}
         >
             <SiteHeader />
-            
-            {isMobileResolution && <HeroImage />}      
+              {isMobileResolution && <HeroImage />}      
             <Carousel />  
             <About mb={{xs:"0", md:"16"}}/>
             <Contact mb={16}/>
