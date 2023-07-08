@@ -10,6 +10,8 @@ import Carousel from "./Components/Carousel";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 
+import { useMatchMedia } from "./hooks/useMatchMedia";
+
 
 export default function Hero({
   title,
@@ -20,7 +22,10 @@ export default function Hero({
   Abouttitle,
   Abouttext,
   ...rest
-}) {
+}) 
+{
+
+const isMobileResolution = useMatchMedia("(min-width:662px)", true);
   return (
     <>
         <Flex
@@ -31,9 +36,10 @@ export default function Hero({
           {...rest}
         >
             <SiteHeader />
-            <HeroImage />      
+            
+            {isMobileResolution && <HeroImage />}      
             <Carousel />  
-            <About mb={{xs:"none", md:"16"}}/>
+            <About mb={{xs:"0", md:"16"}}/>
             <Contact mb={16}/>
         </Flex>
     </>
