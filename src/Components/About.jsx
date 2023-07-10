@@ -92,7 +92,6 @@ export default function About({
                         textAlign={["left"]}
                       >
                         <div>CIVIL  //</div> 
-                        <div>INDUSTRIAL  //</div> 
                         <div>RESIDENTIAL //</div>  
                       </Heading>
                     </Flex>

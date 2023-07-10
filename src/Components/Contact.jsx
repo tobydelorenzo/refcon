@@ -56,27 +56,36 @@ export default function Contact({})
                   justify={["space-between"]}
                   w={'100%'}
                 >
-                  <Flex direction="column">
-                    <Heading
-                      as="h2"
-                      size="lg"
-                      color="rgba(249, 78, 36, 1)"
-                      opacity="0.8"
-                      fontWeight="700"
-                      lineHeight={1.5}
+                  <Flex 
+                    direction="row"
+                    justify="space-between"
                     >
-                      Excellence in construction
-                    </Heading>
-                    <Heading
-                      as="h2"
-                      size="lg"
-                      color="rgba(249, 78, 36, 1)"
-                      opacity="0.8"
-                      fontWeight="700"
-                      lineHeight={1.5}
+                    <Flex direction="column">
+                      <Heading
+                        as="h2"
+                        size="lg"
+                        color="rgba(249, 78, 36, 1)"
+                        opacity="0.8"
+                        fontWeight="700"
+                        lineHeight={1.5}
                       >
-                      from the ground up.
-                    </Heading>      
+                        Excellence in construction
+                      </Heading>
+                      <Heading
+                        as="h2"
+                        size="lg"
+                        color="rgba(249, 78, 36, 1)"
+                        opacity="0.8"
+                        fontWeight="700"
+                        lineHeight={1.5}
+                        >
+                        from the ground up.
+                      </Heading>      
+                    </Flex>
+                    <Image 
+                      display= {{xs:'none', sm:'flex'}}
+                      src={footerIcon} 
+                      />
                   </Flex>
                   <Flex direction="column">
                     <Stack 
@@ -87,7 +96,7 @@ export default function Contact({})
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
                             <ExternalLinkIcon color="#F94E24" />
                             <Text>
-                              By email  <br /><Link href='mailto:refconstruction7@gmail.com' isExternal>@refconstruction</Link>
+                              By email  <br /><Link href='mailto:refconstruction7@gmail.com' isExternal>refconstruction7@gmail.com</Link>
                             </Text>
                         </Flex>
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
@@ -124,3 +133,10 @@ export default function Contact({})
   );
 }
 
+SiteHeader.propTypes = {
+  footerIcon: PropTypes.string,
+};
+
+SiteHeader.defaultProps = {
+  footerIcon: "/refcon.svg" 
+}
