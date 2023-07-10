@@ -11,7 +11,11 @@ import {
 
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
-export default function Contact({}) 
+export default function Contact({
+  footerIcon,
+  ...rest
+}) 
+
 
 {
   return (
