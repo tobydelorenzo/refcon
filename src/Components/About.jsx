@@ -93,6 +93,7 @@ export default function About({
                         fontWeight="700"
                         lineHeight={1.5}
                         textAlign={["left"]}
+                        maxH="220px"
                       >
                         <div>CIVIL  //</div> 
                         <div>RESIDENTIAL //</div>  
