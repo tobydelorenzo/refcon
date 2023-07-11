@@ -55,12 +55,12 @@ export default function SiteHeader({
                   display= {{xs:'none', sm:'flex'}}
                   src={logo} 
                    />
-                  <Image 
-                    display= {{xs:'flex', sm:'none'}}
-                    src={logoMob} 
-                    width={{xs:'60vw', sm:'40vw'}}
-                    rounded="1rem" 
-                    />
+                <Image 
+                  display= {{xs:'flex', sm:'none'}}
+                  src={logoMob} 
+                  width={{xs:'60vw', sm:'40vw'}}
+                  rounded="1rem" 
+                  />
             </GridItem>
             <GridItem colSpan={1} style={styles.navalign}>
                 <Nav />
