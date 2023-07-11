@@ -20,7 +20,8 @@ export default function Hero({
   ctaLink,
   ctaText,
   Abouttitle,
-  Abouttext,
+  Abouttext1,
+  Abouttext2,
   ...rest
 }) 
 {
@@ -55,7 +56,8 @@ Hero.propTypes = {
 },
 About.propTypes = {
   Abouttitle: PropTypes.string,
-  Abouttext: PropTypes.string,
+  Abouttext1: PropTypes.string,
+  Abouttext2: PropTypes.string
 };
 
 Hero.defaultProps = {
@@ -65,6 +67,8 @@ Hero.defaultProps = {
 },
 About.defaultProps = {
 Abouttitle: "Company", 
-Abouttext:
-    "REF Construction is a privately owned construction company based out of Parkes NSW specialising in civil construction, earthworks, project management and labour hire. The team at REF Construction combine years of experience across the mining, renewable energies, civil, commercial and residential sectors to form a determined project company. REF Construction offers top-quality services in the civil, industrial, and residential sectors, ensuring that all projects are completed with professionalism and expertise. We are dedicated to delivering reliable to meet the needs of our clients. We build lasting relationships by providing exceptional customer service and ensuring that all projects are completed on time and within budget.",
+Abouttext1:
+    "REF Construction is a privately owned construction company based in  Parkes NSW, specialising in civil construction, earthworks, project management and labour hire. The team at REF Construction combine years of experience across the mining, renewable energies, civil, commercial and residential sectors to form an accomplished project company.",
+Abouttext2:
+    "REF Construction offers top-quality services in the civil and residential sectors, ensuring that all projects are completed with professionalism and expertise. We are dedicated to delivering high standards which meet the needs of our clients. We build lasting relationships by providing exceptional customer service and ensuring all projects are completed on time and within budget.",
 };

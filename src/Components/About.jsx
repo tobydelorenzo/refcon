@@ -17,7 +17,8 @@ aboutCard: {
 
 export default function About({
   Abouttitle,
-  Abouttext,
+  Abouttext1,
+  Abouttext2,
   ...rest
 }) 
 
@@ -69,7 +70,9 @@ export default function About({
                           lineHeight={1.5}
                           textAlign={["left"]}
                         >
-                          {Abouttext}
+                          {Abouttext1} 
+                          <br />
+                          {Abouttext2} 
                         </Heading>
                     </Flex>
                 </Flex>
@@ -106,6 +109,7 @@ export default function About({
 
 About.propTypes = {
   Abouttitle: PropTypes.string,
-  Abouttext: PropTypes.string,
+  Abouttext1: PropTypes.string,
+  Abouttext2: PropTypes.string
 };
 

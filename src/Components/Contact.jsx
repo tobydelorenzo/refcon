@@ -90,7 +90,9 @@ export default function Contact({
                     </Flex>
                     <Image 
                       display= {{xs:'none', sm:'flex'}}
-                      src={footerIcon} 
+                      src={footerIcon}
+                      alignSelf= "baseline"
+                      w= "48px" 
                       />
                   </Flex>
                   <Flex direction="column">
