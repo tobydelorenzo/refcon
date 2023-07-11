@@ -1,5 +1,6 @@
 
 import React from "react";
+import PropTypes from "prop-types";
 import {
   Flex,
   Grid, 
@@ -137,10 +138,10 @@ export default function Contact({
   );
 }
 
-SiteHeader.propTypes = {
+Contact.propTypes = {
   footerIcon: PropTypes.string,
 };
 
-SiteHeader.defaultProps = {
+Contact.defaultProps = {
   footerIcon: "/refcon.svg" 
 }
