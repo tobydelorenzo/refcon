@@ -8,7 +8,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/%%%%%%%%"
+    "projectimage": "/Murie-Creek-Bridge.jpg"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/$$$$$$$$"
+    "projectimage": "/Special-activation-precinct.jpg"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/$$$"
+    "projectimage": "/Belubula-way-bridge.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/$$$"
+    "projectimage": "/Live-substation-extension-and-SVC-building-Tamworth-NSW.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/$$$$"
+    "projectimage": "/Bango-wind-farm-queensland.jpg"
   },
   {
     "id": 6,
@@ -63,10 +63,10 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/$$$$"
+    "projectimage": "/Sports-and-recreation-field-apron-slab-Condobolin.jpg"
   },
   {
-    "id": 1,
+    "id": 7,
     "title": "Murie Creek Bridge ",
     "body": "Assisting principal contractor Murray Constructions, REF Construction personnel carried out and managed the civil works constructing the foundation support for the culvert cells to be installed forming the bridge at Murie Creek, Condobolin NSW. Installing over 20T of reo, forming the 350m2 foundation slabs and pouring 105m3 in 14 days was a credit to the team involved under the time restraints.",    
     "value": "$500k",
@@ -74,6 +74,6 @@
     "duties1": "Onsite supervision",
     "duties2": "Project management & coordination",
     "tag": "CIVIL",
-    "projectimage": "/%%%%%%%%"
+    "projectimage": "/Murie-Creek-Bridge.jpg"
   }
 ]
