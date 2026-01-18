@@ -29,7 +29,8 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "overrides": {
-    "@remix-run/router": "1.23.2"
+    "@remix-run/router": "1.23.2",
+    "tar": "6.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.9",
