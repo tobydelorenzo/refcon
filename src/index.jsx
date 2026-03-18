@@ -17,3 +17,21 @@ ReactDOM.createRoot(rootElement).render(
     </ChakraProvider>
   </React.StrictMode>,
 )
+
+
+function doPost(e) {
+  var row = [
+    e.parameter.pair1,
+    e.parameter.pair2,
+    e.parameter.pair3,
+    e.parameter.pair4,
+    e.parameter.pair5,
+  ]
+
+  var sheet = SpreadsheetApp.openById('1LUGNJcsytqy7rLlQMxChm5sRqxdX-ec-RMop2tDuERQ');
+
+  sheet.appendRow(row);
+
+
+  return ContentService.createTextOutput('Done! Nice work AM Design');
+}

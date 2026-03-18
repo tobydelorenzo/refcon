@@ -28,6 +28,46 @@
     "react-router-dom": "^6.12.0",
     "vite-plugin-eslint": "^1.8.1"
   },
+  "overrides": {
+    "@remix-run/router": "1.23.2",
+    "tar": "6.2.2",
+    "@eslint/eslintrc": {
+      "minimatch": "3.1.4"
+    },
+    "@humanwhocodes/config-array": {
+      "minimatch": "3.1.4"
+    },
+    "eslint": {
+      "minimatch": "3.1.4"
+    },
+    "eslint-plugin-react": {
+      "minimatch": "3.1.4"
+    },
+    "glob": {
+      "minimatch": "3.1.4"
+    },
+    "@tufjs/models": {
+      "minimatch": "9.0.7"
+    },
+    "ignore-walk": {
+      "minimatch": "9.0.7"
+    },
+    "glob@10": {
+      "minimatch": "9.0.7"
+    },
+    "glob@8": {
+      "minimatch": "5.1.8"
+    },
+    "npm-check-updates": {
+      "minimatch": "9.0.7"
+    },
+    "read-package-json": {
+      "minimatch": "9.0.7"
+    },
+    "make-fetch-happen": {
+      "minimatch": "5.1.8"
+    }
+  },
   "devDependencies": {
     "@types/react": "^18.2.9",
     "@types/react-dom": "^18.2.4",

@@ -10,7 +10,8 @@ const styles = {
 aboutCard: {
     alignItems: "center",
     display: "flex",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    width: "100%"
   },
 };
 

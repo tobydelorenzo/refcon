@@ -104,7 +104,7 @@ export default function Contact({
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
                             <ExternalLinkIcon color="#F94E24" />
                             <Text>
-                              By email  <br /><Link href='mailto:refconstruction7@gmail.com' isExternal>refconstruction7@gmail.com</Link>
+                              By email  <br /><Link href='mailto:admin@refconstruction.com.au' isExternal>admin@refconstruction.com.au</Link>
                             </Text>
                         </Flex>
                         <Flex flexBasis={'15%'} alignItems='baseline' gap='2'>
